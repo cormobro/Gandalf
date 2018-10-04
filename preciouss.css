@@ -1,0 +1,57 @@
+body {
+	
+}
+.cadre {
+width: 400px;
+height: 472px;
+position: relative;
+
+
+}
+.texte {
+	background-color: rgba(255,255,255,0.3);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 125%;
+	height: 125%;
+}
+.reward {
+position: absolute;
+ top: 30%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ background-color: white;
+ border-radius: 10px;
+ padding: 10px 20px;
+ font-size: 40px;
+}
+.rewardbis {
+color: orange;
+}
+
+.image {
+display: block;
+ width: 100%;
+ height: auto;
+}
+
+.gandalf {
+position: absolute;
+ top: 90%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ font-size: 80px;
+ color: white;
+}
+
+.cadre:hover .reward {
+	opacity: 0;
+	rgba:0,0,0,0;
+}
+.cadre:hover .texte {
+	background-color: rgba(255,255,255,0)
+}
+.cadre:hover .gandalf {
+	font-size: 40px;
+}
